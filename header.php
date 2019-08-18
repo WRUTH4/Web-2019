@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+<?php if(!defined('PREPEND_PATH')) define('PREPEND_PATH', ''); ?>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><?php echo ucwords('Khoa Công Nghệ Thông Tin - Trường Đại Học Thuỷ Lợi')?></title>   
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="<?php echo PREPEND_PATH; ?>css/style.css">
+</head>
+<body>
 <header class="header-area">
         <!-- Top Header Area -->
         <div class="top-header">
@@ -6,10 +20,10 @@
                     <div class="col-12 h-100">
                         <div class="header-content h-100 d-flex align-items-center justify-content-between">
                             <div class="academy-logo">
-                                <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                                <a href="index.php"><img src="<?php echo PREPEND_PATH; ?>img/core-img/logo.png" alt=""></a>
                             </div>
                             <div class="login-content">
-                                <a href="#">Đăng ký </a>/<a href="#"> Đăng nhập</a>
+                                <a href="adimn/index.php"> Đăng nhập</a>
                             </div>
                         </div>
                     </div>
@@ -41,9 +55,9 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="index.php">Trang Chủ</a></li>
-                                    <li><a href="#">Sinh Viên</a></li>
-                                    <li><a href="#">Tin Tức</a></li>
-                                    <li><a href="#">Thông Báo</a></li>
+                                    <li><a href="student.php">Sinh Viên</a></li>
+                                    <li><a href="news.php">Tin Tức</a></li>
+                                    <li><a href="notification.php">Thông Báo</a></li>
                                     <li><a href="course.php">Bộ Môn-Trung Tâm</a></li>
                                     <li><a href="about.php">Giới Thiệu</a></li>
                                 </ul>

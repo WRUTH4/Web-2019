@@ -1,33 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Khoa Công Nghệ Thông Tin - Trường Đại Học Thuỷ Lợi</title>   
-    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-    <header>
-        <?php include('header.php'); ?>
-    </header>
-	
-
-   <footer>
-        <?php include('footer.php'); ?>
-    </footer> 
-</body>
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
-    <script src="js/active.js"></script>
-</html>s
+    <div class="academy-courses-area section-padding-100-0">
+        <div class="container">
+            <div class="row">
+                <!-- Single Course Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="course-icon">
+                            <i class="icon-id-card"></i>
+                        </div>
+                        <div class="course-content">
+                            <h4>Business School</h4>
+                            <p>Cras vitae turpis lacinia, lacinia la cus non, fermentum nisi.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Course Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="course-icon">
+                            <i class="icon-worldwide"></i>
+                        </div>
+                        <div class="course-content">
+                            <h4>Marketing</h4>
+                            <p>Lacinia, lacinia la cus non, fermen tum nisi.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Course Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <div class="course-icon">
+                            <i class="icon-map"></i>
+                        </div>
+                        <div class="course-content">
+                            <h4>Photography</h4>
+                            <p>Cras vitae turpis lacinia, lacinia la cus non, fermentum nisi.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Course Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="600ms">
+                        <div class="course-icon">
+                            <i class="icon-like"></i>
+                        </div>
+                        <div class="course-content">
+                            <h4>Social Media</h4>
+                            <p>Cras vitae turpis lacinia, lacinia la cus non, fermentum nisi.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Course Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="700ms">
+                        <div class="course-icon">
+                            <i class="icon-responsive"></i>
+                        </div>
+                        <div class="course-content">
+                            <h4>Development</h4>
+                            <p>Lacinia, lacinia la cus non, fermen tum nisi.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Course Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="800ms">
+                        <div class="course-icon">
+                            <i class="icon-message"></i>
+                        </div>
+                        <div class="course-content">
+                            <h4>Design</h4>
+                            <p>Cras vitae turpis lacinia, lacinia la cus non, fermentum nisi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

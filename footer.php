@@ -1,3 +1,4 @@
+
 <footer class="footer-area">
     <div class="main-footer-area section-padding-100-0">
         <div class="container">
@@ -5,7 +6,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="footer-widget mb-100">
                         <div class="widget-title">
-                            <a href="#"><img src="img/core-img/logo2.png" alt=""></a>
+                            <a href="#"><img src="<?php echo PREPEND_PATH; ?>img/core-img/logo2.png" alt=""></a>
                         </div>
                         <p>Khoa Công nghệ thông tin - Đại học Thủy lợi</p>
                         <div class="footer-social-info">
@@ -79,3 +80,10 @@
         </div>
     </div>
 </footer>
+    </body>
+        <script src="<?php echo PREPEND_PATH; ?>js/jquery/jquery-2.2.4.min.js"></script>    
+        <script src="<?php echo PREPEND_PATH; ?>js/bootstrap/popper.min.js"></script>
+        <script src="<?php echo PREPEND_PATH; ?>js/bootstrap/bootstrap.min.js"></script>
+        <script src="<?php echo PREPEND_PATH; ?>js/plugins/plugins.js"></script>
+        <script src="<?php echo PREPEND_PATH; ?>js/active.js"></script>
+</html>
