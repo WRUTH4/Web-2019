@@ -23,7 +23,7 @@
                                 <a href="index.php"><img src="<?php echo PREPEND_PATH; ?>img/core-img/logo.png" alt=""></a>
                             </div>
                             <div class="login-content">
-                                <a href="adimn/index.php"> Đăng nhập</a>
+                                <a href="admin/index.php"> Đăng nhập</a>
                             </div>
                         </div>
                     </div>
